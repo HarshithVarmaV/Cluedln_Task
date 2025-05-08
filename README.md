@@ -119,7 +119,9 @@ The final dataset is more trustworthy, complete, and semantically rich compared 
 Finally, downloaded the enriched Companies datset which can be used for downstream data analytics.
 ![Screenshot 2025-05-07 at 10 51 46 PM](https://github.com/user-attachments/assets/31431fc7-0f97-4ff2-8fc4-4eafa046c690)
 
+# Outcome
 
+This project successfully transformed company dataset into a validated and enriched data asset. It demonstrates reliable API integration, effective data cleansing, and high analytical quality. The resulting dataset supports business intelligence, customer profiling, and regulatory analysis.
 
 
 
