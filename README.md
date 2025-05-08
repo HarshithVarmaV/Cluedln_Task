@@ -105,6 +105,8 @@ The horizontal bar chart titled “Company Status Distribution Among Valid Match
 
 This distribution confirms that the dataset is predominantly composed of live and active companies, which is beneficial for downstream analytics like customer engagement or risk profiling. However, the presence of dissolved and liquidated companies suggests a need for business rules to exclude or flag these records for certain applications such as marketing or credit evaluation.
 
+These visualizations offered insights into company operational statuses and data alignment with the Companies House registry.
+
 And then we tried to verify the count of number of records which are having success in API calls is as shown below.
 ![Screenshot 2025-05-07 at 10 42 54 PM](https://github.com/user-attachments/assets/66183602-6fbe-454c-8df2-0c6173fc0000)
 
@@ -116,7 +118,8 @@ Then we tried to conduct a exploratory data analysis using the "ydata-profiling"
 
 The final dataset is more trustworthy, complete, and semantically rich compared to its initial state. Though the percentage of missing values remains around 51%, that’s expected due to additional fields from API enrichment (which may not apply to every record). Overall, the data transformation workflow significantly elevated the dataset’s analytical value and readiness for downstream business use.
 
-Finally, downloaded the enriched Companies datset which can be used for downstream data analytics.
+Exported the final enriched dataset in a format suitable for downstream analytics.
+
 ![Screenshot 2025-05-07 at 10 51 46 PM](https://github.com/user-attachments/assets/31431fc7-0f97-4ff2-8fc4-4eafa046c690)
 
 # Outcome
