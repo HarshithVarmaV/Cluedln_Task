@@ -73,7 +73,9 @@ After removing duplicate records, the count of number of rows and columns are as
 ## 5. Matching (Validation with Companies House API)
 Leveraged Companies House REST API to validate company records by matching company numbers and names. API validation identified discrepancies, including mismatches and no responses, essential for subsequent enrichment and corrections.
 
-We have created an application in "Companies House Rest API" in "live" environment and then try to create a key for this application. We need to use this key for accessing this RESTAPI. As these keys should not be hardcoded in the code because of security reasons and the same code can be used to access different environments data, so we have created a ".env" file to store this RESTAPI key.
+We have created an application in "Companies House Rest API" in "live" environment and then try to create a key for this application. We need to use this key for accessing this RESTAPI. To securely access the Companies House REST API, the COMPANIES_HOUSE_API_KEY was stored using GitHub repository secrets. This approach avoids hardcoding sensitive credentials in the codebase and allows for secure usage during automated CI/CD workflows.
+
+![Screenshot 2025-05-07 at 11 30 24 PM](https://github.com/user-attachments/assets/96057084-28cf-4734-9a5a-7b9e179e98e2)
 
 ![Screenshot 2025-05-07 at 10 06 32 PM](https://github.com/user-attachments/assets/fe3e35f6-6f12-42fb-95c3-4b526620094a)
 
